@@ -1,0 +1,35 @@
+{
+  "name": "ts-rest-api",
+  "version": "1.0.0",
+  "description": "A simple REST API with TypeScript.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node index.js",
+    "dev": "tsc --watch & nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aristorinjuang/ts-rest-api.git"
+  },
+  "keywords": [
+    "ts",
+    "typescript",
+    "javascript",
+    "rest",
+    "api",
+    "express"
+  ],
+  "author": "Aristo Rinjuang <contact@aristorinjuang.com> (https://aristorinjuang.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aristorinjuang/ts-rest-api/issues"
+  },
+  "homepage": "https://github.com/aristorinjuang/ts-rest-api#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13"
+  }
+}
