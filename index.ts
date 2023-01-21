@@ -1,7 +1,7 @@
 import express, { Express, Request, Response } from 'express';
 
 const app: Express = express();
-const port: number = 80;
+const port: number = 8080;
 const version: string = '/v1';
 const path: string = '/articles';
 
